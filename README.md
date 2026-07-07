@@ -37,7 +37,7 @@ SkinHealth là một dự án nghiên cứu khoa học sinh viên nhằm phát t
 ## 👥 Thành Viên Thực Hiện (Team)
 
 - **Dương Trọng Phúc** - *Vị trí:* Thành viên nghiên cứu & Phát triển ứng dụng di động Android.
-- **Đồng đội** - *Vị trí:* Thành viên nghiên cứu & Huấn luyện mô hình Machine Learning.
+- **Nguyễn Tấn Trung** - *Vị trí:* Thành viên nghiên cứu & Huấn luyện mô hình Machine Learning.
 
 ---
 
@@ -46,8 +46,5 @@ SkinHealth là một dự án nghiên cứu khoa học sinh viên nhằm phát t
 1. Clone dự án về máy:
    ```bash
    git clone [https://github.com/ItzPUG/SkinHealth.git](https://github.com/ItzPUG/SkinHealth.git)
-<img width="449" height="811" alt="image" src="https://github.com/user-attachments/assets/182d6685-568d-40eb-ac1e-8870fc5bd691" />
-<img width="461" height="1028" alt="image" src="https://github.com/user-attachments/assets/92bbcb43-2bbb-41c1-8ed1-1d84e6296d03" />
-<img width="756" height="879" alt="image" src="https://github.com/user-attachments/assets/ae9dc721-9e99-44be-95da-f7e0d209bb28" />
 
 Công nghệ sử dụng (Kotlin/Java, Firebase, Android Studio...)
