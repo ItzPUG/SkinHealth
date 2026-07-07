@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Brand palette -->
+    <color name="brandPrimary">#2563EB</color>
+    <color name="brandPrimaryDark">#1D4ED8</color>
+    <color name="brandAccent">#38BDF8</color>
+    <color name="brandNavy">#0F172A</color>
+
+    <color name="appBackground">#F4F7FB</color>
+    <color name="cardBackground">#FFFFFF</color>
+
+    <color name="textPrimary">#0F172A</color>
+    <color name="textSecondary">#64748B</color>
+    <color name="hintText">#94A3B8</color>
+
+    <color name="divider">#E2E8F0</color>
+
+    <color name="successGreen">#16A34A</color>
+    <color name="warningAmber">#F59E0B</color>
+    <color name="dangerRed">#EF4444</color>
+
+    <!-- Alias giữ tương thích với code/layout cũ -->
+    <color name="primaryBlue">@color/brandPrimary</color>
+    <color name="primaryBlueDark">@color/brandPrimaryDark</color>
+    <color name="secondaryBlue">@color/brandPrimary</color>
+    <color name="primaryGreen">@color/successGreen</color>
+    <color name="primaryGreenLight">#22C55E</color>
+
+    <color name="screenBackground">@color/appBackground</color>
+    <color name="titleText">@color/textPrimary</color>
+    <color name="subtitleText">@color/textSecondary</color>
+    <color name="inputBorder">@color/divider</color>
+    <color name="googleButton">#EEEEEE</color>
+
+    <color name="bottomIcon">#94A3B8</color>
+    <color name="bottomIconActive">@color/brandPrimary</color>
+
+</resources>

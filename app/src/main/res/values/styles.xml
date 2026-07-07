@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="RoundedButton">
+        <item name="cornerRadius">28dp</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+    <style name="RecentBox">
+        <item name="android:layout_width">90dp</item>
+        <item name="android:layout_height">90dp</item>
+        <item name="android:layout_marginEnd">12dp</item>
+        <item name="android:background">@drawable/bg_recent</item>
+    </style>
+
+
+    <style name="BottomIcon">
+        <item name="android:layout_width">24dp</item>
+        <item name="android:layout_height">24dp</item>
+        <item name="android:tint">@android:color/white</item>
+    </style>
+
+    <style name="BottomIconCenter">
+        <item name="android:layout_width">48dp</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:background">@drawable/bg_search</item>
+        <item name="android:padding">10dp</item>
+    </style>
+
+
+</resources>

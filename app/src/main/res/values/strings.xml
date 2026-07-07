@@ -1,0 +1,94 @@
+<resources>
+    <string name="app_name">SkinHealth</string>
+
+    <!-- Global -->
+    <string name="profile_unnamed">Hồ sơ chưa đặt tên</string>
+
+    <!-- Scan flow -->
+    <string name="scan_select_profile_first">Vui lòng chọn hồ sơ trước khi quét</string>
+    <string name="scan_no_logged_account">Không tìm thấy tài khoản đăng nhập</string>
+    <string name="scan_no_profile_title">Chưa có hồ sơ</string>
+    <string name="scan_no_profile_message">Bạn cần tạo hồ sơ người dùng trước khi quét da.</string>
+    <string name="scan_create_profile">Tạo hồ sơ</string>
+    <string name="scan_choose_profile_title">Chọn hồ sơ để quét</string>
+    <string name="scan_selected_profile">Đã chọn hồ sơ: %1$s</string>
+    <string name="scan_cannot_load_profiles">Không thể tải danh sách hồ sơ</string>
+    <string name="scan_profile_ready_followup">Đang ở chế độ quét kiểm tra lại</string>
+    <string name="scan_profile_ready_normal">Đã sẵn sàng để quét và lưu lịch sử vào hồ sơ này</string>
+    <string name="scan_profile_not_selected">Hãy chọn hồ sơ trước khi quét</string>
+    <string name="scan_need_camera_permission">Cần quyền camera để chụp ảnh</string>
+    <string name="scan_camera_not_ready">Camera chưa sẵn sàng. Vui lòng đợi…</string>
+    <string name="scan_capturing">Đang chụp ảnh…</string>
+    <string name="scan_crop_not_received">Không nhận được ảnh đã cắt.</string>
+    <string name="scan_analysis_error">Lỗi phân tích ảnh</string>
+    <string name="scan_classify_error">Lỗi phân loại tổn thương</string>
+    <string name="scan_input_invalid_title">Ảnh chưa phù hợp để phân tích</string>
+    <string name="scan_input_invalid_message">Hệ thống chưa thể nhận diện rõ vùng da trong ảnh hiện tại.</string>
+    <string name="scan_input_tips">Gợi ý để thử lại:\n• Đưa vùng da vào giữa khung hình\n• Chụp nơi đủ sáng, tránh ngược sáng\n• Giữ máy ổn định để ảnh rõ nét</string>
+    <string name="scan_input_reason_not_skin_title">Chưa nhận diện được vùng da</string>
+    <string name="scan_input_reason_not_skin_message">Ảnh chưa hiển thị đủ vùng da cần phân tích.</string>
+    <string name="scan_input_reason_light_title">Ảnh chưa đạt điều kiện ánh sáng</string>
+    <string name="scan_input_reason_light_message">Độ sáng của ảnh chưa phù hợp để phân tích chính xác.</string>
+    <string name="scan_input_reason_blur_title">Ảnh chưa đủ độ nét</string>
+    <string name="scan_input_reason_blur_message">Hình ảnh chưa đủ rõ để hệ thống đánh giá tổn thương.</string>
+    <string name="scan_dialog_understood">Đã hiểu</string>
+    <string name="scan_dialog_retry">Chụp lại</string>
+    <string name="scan_confidence_format">Độ tin cậy: %1$.2f%%</string>
+    <string name="scan_need_profile_save_result">Chưa chọn hồ sơ để lưu kết quả</string>
+
+    <!-- Feedback / dialogs -->
+    <string name="feedback_understood">Đã hiểu</string>
+    <string name="feedback_retry">Thử lại</string>
+    <string name="feedback_close">Đóng</string>
+    <string name="feedback_select_profile">Chọn hồ sơ</string>
+    <string name="feedback_retry_capture">Chụp lại</string>
+    <string name="feedback_retry_analyze">Phân tích lại</string>
+
+    <string name="error_title_common">Không thể hoàn tất thao tác</string>
+    <string name="error_load_profiles_message">Không thể tải danh sách hồ sơ lúc này. Vui lòng thử lại sau ít phút.</string>
+    <string name="error_camera_permission_title">Cần quyền camera</string>
+    <string name="error_camera_permission_message">Ứng dụng cần quyền camera để chụp ảnh và phân tích tổn thương da.</string>
+    <string name="error_capture_failed_title">Chụp ảnh chưa thành công</string>
+    <string name="error_capture_failed_message">Ảnh chưa được ghi lại thành công. Bạn có thể chụp lại ngay bây giờ.</string>
+    <string name="error_analyze_failed_message">Hệ thống chưa thể phân tích ảnh này. Hãy thử phân tích lại hoặc chọn ảnh khác.</string>
+    <string name="error_classify_failed_message">Không thể đưa ra kết quả phân loại cho ảnh này. Hãy thử lại với ảnh rõ hơn.</string>
+    <string name="error_save_without_profile_title">Thiếu hồ sơ lưu kết quả</string>
+    <string name="error_save_without_profile_message">Bạn cần chọn một hồ sơ trước khi lưu kết quả quét.</string>
+    <string name="error_history_load_message">Không thể tải lịch sử quét lúc này. Vui lòng thử lại.</string>
+    <string name="error_delete_history_message">Xóa lịch sử thất bại. Vui lòng thử lại sau.</string>
+    <string name="error_save_note_message">Không thể lưu ghi chú lúc này. Vui lòng thử lại.</string>
+    <string name="error_save_reminder_message">Không thể lưu lịch nhắc. Vui lòng thử lại sau.</string>
+    <string name="error_profile_load_message">Không thể tải thông tin tài khoản. Vui lòng thử lại.</string>
+    <string name="error_feedback_empty_message">Vui lòng nhập nội dung phản hồi trước khi gửi.</string>
+    <string name="error_feedback_send_message">Không thể gửi phản hồi lúc này. Vui lòng thử lại.</string>
+    <string name="error_avatar_save_message">Không thể lưu ảnh đại diện. Vui lòng thử lại.</string>
+    <string name="error_avatar_pick_message">Không thể chọn ảnh từ thư viện. Vui lòng thử lại.</string>
+    <string name="error_need_login_message">Không tìm thấy tài khoản đăng nhập. Vui lòng đăng nhập lại.</string>
+    <string name="error_main_invalid_image_message">Ảnh chưa hợp lệ để phân tích. Vui lòng chọn ảnh rõ hơn.</string>
+    <string name="error_main_analyze_message">Không thể phân tích ảnh lúc này. Vui lòng thử lại.</string>
+
+    <!-- History detail timeline -->
+    <string name="timeline_section_title">Diễn tiến theo thời gian</string>
+    <string name="timeline_compare_nearest">So sánh với lần trước gần nhất</string>
+
+    <!-- Legacy classifier label -->
+    <string name="scan_threat_low">NGUY CƠ THẤP</string>
+    <string name="scan_threat_low_desc">Nguy cơ thấp</string>
+    <string name="scan_threat_low_advice">Tiếp tục theo dõi. Nếu nốt ruồi hoặc tổn thương thay đổi kích thước, màu sắc hoặc bờ viền, hãy kiểm tra lại.</string>
+
+    <string name="scan_threat_medium">NGUY CƠ TRUNG BÌNH</string>
+    <string name="scan_threat_medium_desc">Nguy cơ trung bình</string>
+    <string name="scan_threat_medium_advice">Nên theo dõi sát và chụp lại ảnh rõ hơn. Nếu tổn thương thay đổi hoặc kéo dài, hãy đi khám bác sĩ da liễu.</string>
+
+    <string name="scan_threat_high">NGUY CƠ CAO</string>
+    <string name="scan_threat_high_desc">Nguy cơ cao</string>
+    <string name="scan_threat_high_advice">Khuyến nghị đi khám bác sĩ chuyên khoa da liễu sớm nhất có thể.</string>
+
+    <string name="scan_conclusion_format">Kết quả sàng lọc: %1$s</string>
+
+    <string name="label_high_risk">Nguy cơ cao</string>
+    <string name="label_medium_risk">Nguy cơ trung bình</string>
+    <string name="label_low_risk">Nguy cơ thấp</string>
+    <string name="bottom_label_profile">Hồ sơ</string>
+    <string name="bottom_label_account">Tài khoản</string>
+</resources>

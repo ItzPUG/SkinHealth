@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Màu nền panel -->
+    <solid android:color="#FFFFFF"/>
+
+    <!-- Bo góc phía trên -->
+    <corners
+        android:topLeftRadius="28dp"
+        android:topRightRadius="28dp"
+        android:bottomLeftRadius="0dp"
+        android:bottomRightRadius="0dp"/>
+
+    <!-- Đổ bóng nhẹ -->
+    <padding
+        android:left="0dp"
+        android:right="0dp"
+        android:top="4dp"
+        android:bottom="0dp"/>
+
+</shape>

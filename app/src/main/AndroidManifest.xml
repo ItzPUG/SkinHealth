@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- Android 12 trở xuống -->
+    <uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="32" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/ic_app"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ic_app"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SkinCancerAI"
+        tools:targetApi="31">
+        <receiver
+            android:name=".ReminderReceiver"
+            android:exported="false" />
+        <!-- CameraX: chỉ định default config (camera2) để tránh crash -->
+        <meta-data
+            android:name="androidx.camera.core.impl.CameraXConfigProvider"
+            android:value="androidx.camera.camera2.Camera2Config$Provider" />
+
+        <!-- WELCOME (LAUNCHER) -->
+        <activity
+            android:name=".OnboardingAuthActivity"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".WelcomeActivity"
+            android:exported="false"/>
+        <activity
+            android:name=".ChatbotActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NewsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LesionCaseListActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".LesionCaseDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NewsWebDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NewsDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".HistoryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HistoryDetailActivity"
+            android:exported="false" />
+        <activity android:name=".CompareScanActivity" />
+
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false"/>
+
+
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false" />
+        <activity android:name=".MedicalProfileListActivity"/>
+        <activity android:name=".MedicalProfileEditActivity"/>
+
+        <activity
+            android:name=".ChangePasswordActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".ProfileActivity" />
+
+        <activity
+            android:name=".PersonalInfoActivity" />
+
+        <activity android:name=".SettingsActivity"/>
+        <activity
+            android:name=".CameraCaptureActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <!-- 📷 SCAN (CameraX) -->
+        <activity
+            android:name=".ScanActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ImageCropActivity"
+            android:exported="false" />
+
+        <!-- MAIN APP -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+
+    </application>
+
+</manifest>
